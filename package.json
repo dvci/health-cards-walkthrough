@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ijavascript": "^5.2.0",
+    "node-jose": "^2.0.0",
+    "qrcode": "^1.4.4"
+  }
+}
