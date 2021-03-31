@@ -2,6 +2,8 @@
 
 A basic Jupyter Notebook demonstrating the creation of a SMART Health Card.
 
+[The walkthrough itself is located here.](https://github.com/dvci/health-cards-walkthrough/blob/main/SMART%20Health%20Cards.ipynb)
+
 ## Usage
 
 Set up Jupyter
