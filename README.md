@@ -2,25 +2,25 @@
 
 A basic Jupyter Notebook demonstrating the creation of a SMART Health Card.
 
-[The walkthrough itself is located here.](https://github.com/dvci/health-cards-walkthrough/blob/main/SMART%20Health%20Cards.ipynb)
+[The walkthrough itself is located here.](SMARTHealthCardsPython.ipynb)
 
 ## Usage
-
-Set up Jupyter
+Inside the project root folde, activate virtual environment
 
 ```shell
-pip install --upgrade pyzmq jupyter
+python -m venv venvname
+source venvname/bin/activate
 ```
 
-Install npm dependencies
+Install project requirements and set up Jupyter
 
 ```shell
-npm install
+pip install -r requirements.txt
 ```
 
 Run the notebook
 ```shell
-npm exec ijsnotebook
+jupyter lab
 ```
 
 
