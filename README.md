@@ -1,26 +1,31 @@
 # SMART Health Cards Walkthrough
 
-A basic Jupyter Notebook demonstrating the creation of a SMART Health Card.
-
-[The walkthrough itself is located here.](https://github.com/dvci/health-cards-walkthrough/blob/main/SMART%20Health%20Cards.ipynb)
+Jupyter Notebooks demonstrating the creation of SMART Health Cards in different programming languages:
+* [JavaScript Jupyter Notebook](SMART%20Health%20Cards.ipynb)
+* [Python Jupyter Notebook](SMARTHealthCardsPython.ipynb)
 
 ## Usage
+Inside the project root folder, activate virtual environment
 
-Set up Jupyter
-
+Install project requirements and set up Jupyter depending on the notebook being used:
+### JavaScript Notebook
+Install dependencies
 ```shell
 pip install --upgrade pyzmq jupyter
-```
-
-Install npm dependencies
-
-```shell
 npm install
 ```
-
 Run the notebook
 ```shell
 npm exec ijsnotebook
+```
+### Python Notebook
+Install dependencies
+```shell
+pip install -r requirements.txt
+```
+Run the notebook
+```shell
+jupyter lab
 ```
 
 
